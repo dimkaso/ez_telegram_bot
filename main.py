@@ -54,7 +54,7 @@ async def button(update, context):
 
 def main():
     # Замість вашого токену
-    application = Application.builder().token("8148676579:AAFBl3YtCyqxLz4Nvr0a0rm5KNykKR-_SVw").build()
+    application = Application.builder().token("Your bot code").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("goroskop", goroskop))
