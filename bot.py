@@ -2,10 +2,10 @@ import asyncio
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 
 # Ваш токен бота
-TOKEN = "8148676579:AAFBl3YtCyqxLz4Nvr0a0rm5KNykKR-_SVw"
+TOKEN = "Bot token"
 
 # ID канала (например, @channelusername или -1001234567890)
-CHANNEL_ID = "@TarotSecretsUA"  # Замените на ID вашего канала
+CHANNEL_ID = "@Your Telegram channel in which you want to use the bot"  # Замените на ID вашего канала
 
 # Асинхронная функция для отправки сообщения с кнопкой
 async def send_message_with_button():
@@ -17,7 +17,7 @@ async def send_message_with_button():
 
     # Создаем кнопку с ссылкой на бота
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Перейти к боту", url="https://t.me/TarotForecastsBot")]
+        [InlineKeyboardButton("Перейти к боту", url="link to bot")]
     ])
 
     # Отправляем сообщение с кнопкой
