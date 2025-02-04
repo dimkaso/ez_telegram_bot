@@ -3,7 +3,7 @@ import asyncio
 # Функция для асинхронного запуска main.py
 async def run_main_py():
     process = await asyncio.create_subprocess_exec(
-        "python", "C:/Users/dimka/OneDrive/Рабочий стол/taro/Bot/main.py",
+        "python", "main file path",
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE
     )
@@ -16,7 +16,7 @@ async def run_main_py():
 # Функция для асинхронного запуска bot.py
 async def run_bot_py():
     process = await asyncio.create_subprocess_exec(
-        "python", "C:/Users/dimka/OneDrive/Рабочий стол/taro/Bot/bot.py",
+        "python", "file path , bot.py",
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE
     )
